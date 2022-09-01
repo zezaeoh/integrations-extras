@@ -17,7 +17,7 @@ from .api_pb2 import ListPodResourcesRequest
 from .api_pb2_grpc import PodResourcesListerStub
 
 METRIC_PREFIX = "nvml."
-SOCKET_PATH = "/var/lib/kubelet/device-plugins/kubelet.sock"
+SOCKET_PATH = "/var/lib/kubelet/pod-resources/kubelet.sock"
 """Assumed to be a UDS accessible from this running code"""
 
 
